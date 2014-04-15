@@ -102,12 +102,12 @@
 
       video.appendChild(source);
 
-	if(emoticons[0] == "muahaha") {
+/*	if(emoticons[0] == "muahaha") {
 		var audio = document.createElement("audio");
       audio.setAttribute('src', '../muahaha.mp3');
 		audio.play();
 	}
-
+*/
 
       // for gif instead, use this code below and change mediaRecorder.mimeType in onMediaSuccess below
       // var video = document.createElement("img");
@@ -129,7 +129,6 @@
 	fr2.appendChild(p2);
 	document.getElementById("conversation").appendChild(fr1);
     document.getElementById("conversation").appendChild(video);
-    document.getElementById("conversation").appendChild(audio);
    document.getElementById("conversation").appendChild(fr2);
     }
   }
